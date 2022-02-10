@@ -1,4 +1,4 @@
-#### Lists
+## Lists
 What is a List? It is a collec tion or grouping of items.
 This is also known as Array in other languages.
 
