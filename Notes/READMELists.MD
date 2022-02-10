@@ -138,6 +138,7 @@ Example:
 * ### Count
 * ### Sort
 * ### Reverse
+Add
 * ### Join
 
 ## Slices
