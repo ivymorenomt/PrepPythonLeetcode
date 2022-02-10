@@ -10,4 +10,3 @@
 
 ### Logical Operators
 
-### Lists
