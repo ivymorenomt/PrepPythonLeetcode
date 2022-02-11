@@ -90,7 +90,6 @@ for s in sounds:
 result = result.upper()
 
 ```
-
 ## List Methods
 
 Note: Functions and Methods are not the SAME! They are not entirely interchangeable. A method is a type of a function, but there is a significant distinction.
@@ -132,14 +131,89 @@ Example:
 ```
 
 * ### Clear
-* ### Remove
-* ### Pop
-* ### Index
-* ### Count
-* ### Sort
-* ### Reverse
-Add
-* ### Join
+Remove all items from the list
 
+```
+    first_list = [1,2,3,4]
+    first_list.clear()
+    # first_list is empty
+```
+* ### Remove
+* Removes the first item from the list whose value is x
+* Throws a ValueError if the item is not found.
+```
+    first_list = [1,2,3,4,4]
+    first_list.remove(2) # removes the value 2 [1,3,4,4]
+    first_list.remove(4) # removes the first item which is 4 [1,3,4]
+```
+* ### Pop
+* Remove the item at the given position in the list
+* If no index is specified, it removes and returns last item
+
+```
+    first_list = [1,2,3,4]
+    first_list.pop(1) # removes 2
+    first_list.pop() # removes 4
+```
+* ### Index
+Returns the index of the specified item
+
+```
+    numbers = [5,6,7,8]
+    numbers.index(6) # 1
+    numbers.index(8) # 3
+```
+* ### Count
+Returns the number of times x appears in the list
+
+```
+    numbers = [5,6,6,8]
+    numbers.count(6) # 2
+    numbers.index(8) # 1
+```
+
+* ### Sort
+Sorts the items of the list (in-place)
+
+```
+    numbers = [8,7,6,5]
+    numbers.sort(6) # [5,6,7,8]
+
+    names = ["arya", "colt", "ARYA", "Arya"]
+    names.sort() # ["ARYA", "Arya", "arya", "colt"]
+```
+* ### Reverse
+Reverses the elements of the list(in place)
+
+```
+    numbers = [5,6,7,8]
+    numbers.reverse() # [8,7,6,5]
+```
+* ### Join
+Join is not a list method. It is a string method, and we are calling it on a string. This is used to convert list to strings.
+
+```
+    words = ['Coding', 'is', 'Fun']
+    ' '.join(words) # Coding is fun
+```
 ## Slices
+Make new lists using slices of the old list.
+
+```
+ some_list [start:end:step]
+```
+### First Parameter: Start
+What index to start slicing from
+
+```
+    first_list = [1,2,3,4]
+    first_list[1:] # [2,3,4]
+    first_list[3:] # [4]
+```
+If you enter a negative number, it will start the slice that many back from the end.
+```
+    first_list[-1:] # [4]
+    first_list[-3] # [2,3,4]
+```
+
 ## Swapping values in list
