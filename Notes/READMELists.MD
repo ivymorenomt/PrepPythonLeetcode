@@ -215,5 +215,24 @@ If you enter a negative number, it will start the slice that many back from the 
     first_list[-1:] # [4]
     first_list[-3] # [2,3,4]
 ```
+### Second Parameter: End
+The index to copy up to (exclusive counting))
 
+```
+    first_list = [1,2,3,4]
+    first_list[:2] # [1, 2]
+    first_list[:-1] # [1,2,3]
+    first_list[1:-1] # [2,3]
+```
 ## Swapping values in list
+When to swap?
+    Shuffling - a list of cards
+    Sorting - sorting a list in place. Not making a new list
+    Algorithms
+
+```
+    names = ["James","Michelle"]
+    names[0], names[1] = names[1], names[0] # this is where the swapping is performed.
+    print(names) #["Michelle", "James"]
+```
+

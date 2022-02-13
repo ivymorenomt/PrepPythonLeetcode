@@ -1,0 +1,4 @@
+def checkDups(arr):
+    
+nums = [1,2,3,1]
+print(checkDups(nums))
