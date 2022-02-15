@@ -1,7 +1,24 @@
 ## Leetcode Practice
 
-This list came from https://seanprashad.com/leetcode-patterns/
-Also using this list: https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0
+This list came from [patterns](https://seanprashad.com/leetcode-patterns/)
+Also using this [list](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0).
+
+Some problem [solving strategies](https://dev.to/moresaltmorelemon/algorithm-problem-solving-strategies-21cp).
+
+**NOTE**: Before solving, do the following:
+#### Think
+1. Analyze the problem
+2. Restate the problem
+3. Write out examples of input and output.
+4. Create positive test cases to cover possibilities 
+5. Break the problem into its component parts
+6. OUtline a solution in pseudo-code
+7. Step through your example data with your pseudo-code
+
+#### Execute
+1. Code
+2. Test your solutions against your test case
+3. Refactor
 
 
 |Status | Difficulty | Title | Category | Code | Link | Notes | Time Taken |

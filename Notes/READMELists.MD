@@ -235,4 +235,32 @@ When to swap?
     names[0], names[1] = names[1], names[0] # this is where the swapping is performed.
     print(names) #["Michelle", "James"]
 ```
+## Nested Lists
+
+Accessing values in a nested list
+```
+    nested_list = [[1,2,3], [4,5,6], [7,8,9]]
+    nested_list[-1] #[7,8,9]
+    nested_list[-1][1] #8
+```
+Printing out values thru nested list
+```
+    for l in nested_list:
+        for val in l:
+            print(val)
+```
+
+### Nested List Comprehension
+```
+    [[print(val) for val in l] for l in nested_list] # 1 2 3 4 5 6 7 8 9
+
+    # generate a board
+    board = [[num for num in range(1,4)] for val in range(1,4)] # [[1,2,3],[1,2,3],[1,2,3]]
+
+    # print X if odd, print O if number is in range
+
+    [["X" if num % 2 !=0 else "O" for num in range(1,4)] for val in range(1,4)]
+    # [['X', 'O', 'X'], ['X', 'O', 'X'],['X', 'O', 'X']]
+
+```
 
