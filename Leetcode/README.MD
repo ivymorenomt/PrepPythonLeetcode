@@ -20,10 +20,18 @@ Some problem [solving strategies](https://dev.to/moresaltmorelemon/algorithm-pro
 2. Test your solutions against your test case
 3. Refactor
 
+#### Legend:
+:no_entry_sign: : Needs some work 
+:no_entry_sign: : Completed
+:white_large_square: : Not Completed
+
+
 
 |Status | Difficulty | Title | Category | Code | Link | Notes | Time Taken |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| :white_large_square: | Easy | Two Sum | Arrays |  |[Leetcode Two Sum](https://leetcode.com/problems/two-sum/)| use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice|  |
+| :no_entry_sign: | Easy | Two Sum | Arrays | [My Solution](https://github.com/ivymorenomt/PrepPythonLeetcode/blob/master/Leetcode/twosum.py)  |[Leetcode Two Sum](https://leetcode.com/problems/two-sum/)| use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice|  |
 | :white_large_square: | Easy | Merge Two Sorted Lists | Linked Lists | | [Leetcode Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Join two sorted linked list together and the output is the final sorted linked list. |  |
 | :no_entry_sign: | Easy | Find Smallest Letter Greater Than Target | Binary Search | [My Solution](https://github.com/ivymorenomt/PrepPythonLeetcode/blob/master/Leetcode/findsmallestletter.py) | [Leetcode Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) |  Followed binary search for numbers however I get incorrect results. | 30 mins |
-| :white_check_mark: | Easy | Peak Index in a Mountain Array | Binary Search | [My Solution](https://github.com/ivymorenomt/PrepPythonLeetcode/blob/master/Leetcode/findsmallestletter.py) | [Leetcode Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) |  Search for the largest number in the array. | 10 mins |
+| :white_check_mark: | Easy | Peak Index in a Mountain Array | Binary Search | [My Solution](https://github.com/ivymorenomt/PrepPythonLeetcode/blob/master/Leetcode/mountainArray.py) | [Leetcode Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) |  Search for the largest number in the array. | 10 mins |
+| :white_check_mark: | Easy | Contains Duplicate | Arrays | [My Solution](https://github.com/ivymorenomt/PrepPythonLeetcode/blob/master/Leetcode/containsDuplicate.py) | [Leetcode Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |  Use set and compare if lesser than the current array. | 5 mins |
+
