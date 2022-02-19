@@ -22,7 +22,7 @@ Some problem [solving strategies](https://dev.to/moresaltmorelemon/algorithm-pro
 
 #### Legend:
 :no_entry_sign: : Needs some work 
-:no_entry_sign: : Completed
+:white_check_mark: : Completed
 :white_large_square: : Not Completed
 
 
