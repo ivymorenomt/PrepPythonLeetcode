@@ -1,9 +1,13 @@
 ## Checklist
 
+:no_entry_sign: : Needs some work 
+:white_check_mark: : Completed
+:white_large_square: : Not Completed
+
 |Status | Data Structure | Algorithm | Patterns |
 | --- | --- | --- | --- |
 | :white_check_mark: | Array |  | |
-| :white_large_square: | Linked List |  | |
+| :no_entry_sign: | Linked List |  | |
 | :white_large_square: | Stacks |  | |
 | :white_large_square: | Queues |  | |
 | :white_large_square: | Hashmap |  | |
@@ -14,8 +18,8 @@
 | :white_large_square: |  | Heap | |
 | :white_large_square: |  | Brute Force  | |
 | :white_large_square: |  | Recursion | |
-| :white_check_mark: |  |  | Two Pairs | 
-| :white_large_square: |  |  | Sliding Windows |
+| :no_entry_sign: |  |  | Two Pointers | 
+| :no_entry_sign: |  |  | Sliding Windows |
 | :white_large_square: |  |  | Fast and Slow Pointers |
 | :white_large_square: |  |  | Merge Intervals |
 | :white_large_square: |  |  | Cyclic Sort |
