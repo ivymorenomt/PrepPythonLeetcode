@@ -7,10 +7,11 @@
 |Status | Data Structure | Algorithm | Patterns |
 | --- | --- | --- | --- |
 | :white_check_mark: | Array |  | |
+| :no_entry_sign: | Sets |  | |
 | :no_entry_sign: | Linked List |  | |
 | :white_large_square: | Stacks |  | |
 | :white_large_square: | Queues |  | |
-| :white_large_square: | Hashmap |  | |
+| :no_entry_sign: | Hashmap |  | |
 | :white_large_square: | Trees |  | |
 | :white_large_square: | Graphs |  | |
 | :white_check_mark: |  | Search | |
