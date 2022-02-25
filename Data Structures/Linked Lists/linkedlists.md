@@ -12,8 +12,11 @@ It is a whole collection of Nodes.
 root node - should be pointed to as head
 next node - Null/None
 
-![linked list](./img/linkedlist.png)
+![linked list](../img/linkedlist.png)
 
+There are two types:
+* Doubly Linked List - each node has two pointer, this allows you to go backwards and forward rather than one direction way in a linked list.
+* Circular Linked list - end node points to the front node
 
 ### Operations
 
