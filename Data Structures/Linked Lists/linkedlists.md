@@ -1,5 +1,9 @@
 ## Linked List
 
+### Overview
+A linked list is a linear data structure, where elements are stored at non-contiguous locations. A linked list is like a chain made of **nodes** and the links are **pointers**.
+**Pointers are the connections** that hold the pieces of linked structures together.Pointers represent the address of a location in memory.
+
 Every Node has 2 parts:
 data and a pointer to the next Node.
 
@@ -7,6 +11,9 @@ It is a whole collection of Nodes.
 
 root node - should be pointed to as head
 next node - Null/None
+
+![linked list](./img/linkedlist.png)
+
 
 ### Operations
 
