@@ -40,3 +40,11 @@ Always use these following constraints:
 * Empty input -> []
 * One element -> [element]
 * Two or more elements
+
+## Merge Sort
+It gives time complexity of O(n) and thus performs better than insertion sort. It continually splits a list in half until there are one or more lists containing one item and then puts them back together.
+
+![Merge Sort](./img/mergesort.png)
+
+This is used by Python's sort builtin function. It gives you a good time complexity.
+

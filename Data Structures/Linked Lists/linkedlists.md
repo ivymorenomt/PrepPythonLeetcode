@@ -2,6 +2,7 @@
 
 ### Overview
 A linked list is a linear data structure, where elements are stored at non-contiguous locations. A linked list is like a chain made of **nodes** and the links are **pointers**.
+
 **Pointers are the connections** that hold the pieces of linked structures together.Pointers represent the address of a location in memory.
 
 Every Node has 2 parts:
@@ -17,6 +18,19 @@ next node - Null/None
 There are two types:
 * Doubly Linked List - each node has two pointer, this allows you to go backwards and forward rather than one direction way in a linked list.
 * Circular Linked list - end node points to the front node
+
+### Why Linked List?
+* They can be used to implement other common abstract data types, including lists, stacks, queues.
+* Preferred data structures over arrays because of elements can be easiliy inserted or removed without reallocation or reorganization of the entire structure.
+
+Pros and Cons
+|Advantages | Disadvantages |
+| --- | --- |
+| Dynamic Size (there is no need to ever resize a linked list.) |  Very Slow when it comes to **Access** and **Search** we have to iterate over each element sequentially starting from the list node. |
+|  Quick Insertion/Deletion of Nodes because you just change the pointers of each node to insert/delete. |  Extra space for pointer. |
+
+### Big O Analysis
+![linked list](../img/linkedlistbigo.png)
 
 ### Operations
 
