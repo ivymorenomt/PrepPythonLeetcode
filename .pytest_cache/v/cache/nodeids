@@ -1,0 +1,7 @@
+[
+  "Data Structures/Linked Lists/linked_list_test.py::TestLinkedList::test_append",
+  "Data Structures/Linked Lists/linked_list_test.py::TestLinkedList::test_delete",
+  "Data Structures/Linked Lists/linked_list_test.py::TestLinkedList::test_find",
+  "Data Structures/Linked Lists/linked_list_test.py::TestLinkedList::test_insert_to_front",
+  "Data Structures/Linked Lists/linked_list_test.py::TestLinkedList::test_len"
+]

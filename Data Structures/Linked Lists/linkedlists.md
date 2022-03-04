@@ -41,3 +41,5 @@ Pros and Cons
 **add(data)** - it will create a new node. It will change the next pointer so it would change the old root node to Next node. The new node would be the new root.
 
 **remove(data)** - first we have to find, so we will start from the root, then compare the data, then look at next pointer in our previous node.  
+
+ 
