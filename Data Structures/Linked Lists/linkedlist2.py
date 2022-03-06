@@ -1,7 +1,3 @@
-import re
-from tkinter.tix import ListNoteBook
-
-
 class Node:
     def __init__(self, data=None):
         self.data = data
