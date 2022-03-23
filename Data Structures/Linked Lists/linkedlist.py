@@ -98,4 +98,6 @@ class LinkedList(object):
 
 a_list = LinkedList()
 a_list.append(1)
+a_list.append(2)
+
 print(a_list.get_all_data)
