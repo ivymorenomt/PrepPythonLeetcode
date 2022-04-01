@@ -16,3 +16,4 @@ def detect_cycle_start(head):
                 return True
         except:
             return False
+        
