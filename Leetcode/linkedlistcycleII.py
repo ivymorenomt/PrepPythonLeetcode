@@ -14,3 +14,4 @@ def detect_cycle(head: Node)-> Node:
             cycle_len = get_cycle_length(slow)
             break
     return None if cycle_len == -1 else get_starting_point(head, cycle_len)
+    
